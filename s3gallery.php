@@ -23,12 +23,12 @@ class s3Gallery extends S3 {
  * @static
  * @access private
  */
-private static $awsAccessKey = 'YourAccessKey';
+private static $awsAccessKey = 'AKIAIRPCFVGUR7PRBV5Q';
 /**
  * @static
  * @access private
  */
-private static $awsSecretKey = 'YourSecretKey';
+private static $awsSecretKey = 'vFpXJK0QFVX8TOgDhOm1vdZpQhRQRxNvtU/xmC+T';
 /**
  * @static
  * @access private
@@ -159,7 +159,7 @@ function gallery_builder(){
 
     //fake - load local file for development
     //deactivate outer foreach loop for local load/testing
-    $bucketFile = file('s3_gallery_output');
+    //$bucketFile = file('s3_gallery_output');
     
     foreach($content as $bucketFile){
          foreach($bucketFile as $k => $v){
