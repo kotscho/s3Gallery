@@ -1,7 +1,7 @@
 <?php
 
 //test script s3Gallery (style.com)
-error_reporting(E_ALL);
+error_reporting(E_WARNING);
 
 require('S3.php');
 require('s3gallery.php');
